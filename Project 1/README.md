@@ -127,7 +127,8 @@
     - Run `mkdir (directory name/nested directory)`
 
     - i.e  `mkdir Casefile/Newton`
-    ![Alt text](<mkdir for nested dir.png>)
+
+        ![Alt text](<mkdir for nested dir.png>)
 
 
 9.   **Create `rmdir` command**
