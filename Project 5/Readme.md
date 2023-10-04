@@ -415,9 +415,9 @@ echo "Square root of number 2: $square_root"
 
 - To make the *calculations.sh* file executable Run `chmod +x calculations.sh`
 
-    - Run the script `./calculation.sh`
+    - Run the script `./calculations.sh`
 
-    ![Alt text](<Images/calc script.png>)
+    ![Alt text](<Images/calculations. script.png>)
 
 
 ## File Backup and TimeStamping 
@@ -435,8 +435,8 @@ This script defines source directory and backup directory paths. it then create 
 ```#!/bin/bash
 
 # Define the source directory and backup directory
-source_dir="/path/to/source_directory"
-backup_dir="/path/to/backup_directory"
+source_dir="/c/Users/HP/Documents"
+backup_dir="$Home/path/to/backup_directory"
 
 # Create a timestamp with the current date and time
 timestamp=$(date +"%Y%m%d%H%M%S")
@@ -455,13 +455,13 @@ echo "Backup completed. Files copied to: $backup_dir_with_timestamp"
 
 ```
 
-![Alt text](<Images/back script.png>)
+![Alt text](<Images/directory bath.png>)
 
 - To make the *backup.sh* file executable, run `chmod +x backup.sh`
 
 - Run the script `./backup.sh`
 
-![Alt text](<Images/Back up file script.png>)
+![Alt text](<Images/Backup complete.png>)
 
 
 
