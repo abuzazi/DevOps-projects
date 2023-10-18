@@ -294,7 +294,7 @@ Prerequisite:
 
        ```
 
-![Alt text](<Images/Cos BLock.png>)
+![Alt text](Images/mintty_IY0lWgJEYw.png)
 
 
 - **Upstream backend_servers :** Define a group of backend servers
@@ -317,7 +317,18 @@ Prerequisite:
 - In the web browser  paste the `Ip-address` of the Nginx load paste and hit enter
 - RESULT
  
-    ![Alt text](Images/chrome_ouQDSth8Vw.png)
+    - Load-balancer apcahe 
+        ![Alt text](Images/chrome_N0pY3D4bsi.png)
+
+    - Load-balancer apache2
+    
+    ![Alt text](Images/chrome_08nSLhHFn8.png)
+
+
+# END OF PROJECT 7
+
+
+
 
 
 
