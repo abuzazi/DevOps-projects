@@ -208,6 +208,25 @@ The build artifacts are saved in the `/var/lib/jenkins/jobs/ansible/builds/<buil
 
 - `ansible-playbook -i inventory/dev playbooks/common.yml`
 
+![alt text](Images/NykJxAtg5V.png)
+
+- Use the Ansible Adhoc command to check if wireshark has been installed on the servers.
+
+- `ansible webservers -i inventory/dev -m command -a "wireshark --version"`
+
+![alt text](Images/chrome_m5ktdoUuub.png)
+
+- `ansible nfs,db -i inventory/dev -m command -a "wireshark --version"`
+
+![alt text](Images/chrome_H3v5nz4KxX.png)
+
+-  `ansible lb -i inventory/dev -m command -a "wireshark --version"`
+
+![alt text](Images/chrome_O0NOf3CzIg.png)
+
+- The final set up looks like this : 
+![alt text](Images/ApplicationFrameHost_3GAhJRKET0.png)
+
 
 
 
